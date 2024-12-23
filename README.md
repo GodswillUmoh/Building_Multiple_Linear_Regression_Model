@@ -29,6 +29,17 @@ Where:
 > + X1 ,X2 ,…,Xn Independent variables (predictors or features).
 
 ## Assumptions of Linear Regression
+The Anscombe's quartet that is dataset in four pattern showing the different ways variables relate. Linear regression is not applied in the ones that the graph do not show linearity.
+> __Anscombe's quartet__ is a collection of four datasets, each consisting of 11 data points, designed to demonstrate the importance of visualizing data before analyzing it statistically. These datasets have nearly identical simple descriptive statistics (e.g., mean, variance, correlation, and regression line), but when visualized, they reveal very different patterns and relationships.
+
+## [See Image of Anscombe Quartet Here:](https://ibb.co/jMTZYcY)
+
+> __Key Statistics of Anscombe’s Quartet:__  For all four datasets, when graphed:
+> + Dataset 1: A linear relationship fits well; the data aligns closely with the regression line.
+> + Dataset 2: A clear non-linear relationship; a curve would better fit the data.
+> + Dataset 3: An outlier skews the regression, although most points form a horizontal line.
+> + Dataset 4: A vertical line, where all points except one have the same x-value, making the regression line misleading.
+> 
 ​
 ​
   
