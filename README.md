@@ -80,7 +80,7 @@ _In modern contexts, it also inspires similar examples like the Datasaurus Dozen
 Multicollinearity occurs when two or more independent variables in a regression model are highly correlated, meaning they share a significant amount of the same information. This can make it difficult to determine the individual effect of each variable on the dependent variable.
   >
 
-+ 6. The Outlier Check:
++ 6. The Outlier Check (This an addition, not an assumption):
   > An outlier check involves identifying and assessing data points that deviate significantly from the other observations in a dataset. Outliers can have a disproportionate impact on statistical models, influencing the results and potentially leading to inaccurate conclusions.
   > Why Check for Outliers? Distort Statistical Analysis: Outliers can skew means, variances, and other statistical measures.
   > __Methods to Identify Outliers:__
