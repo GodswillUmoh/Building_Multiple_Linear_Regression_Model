@@ -51,17 +51,23 @@ The Anscombe's quartet that is dataset in four pattern showing the different way
 _In modern contexts, it also inspires similar examples like the Datasaurus Dozen, which shows datasets with identical statistics but wildly different shapes when visualized._
 ​
 ## Therefore, The Assumptions for Linear Regression
-+ Linearity: Linear Relationship Between Y and Each X 
-+ Homoscedasticity (Equal Variance)
++ 1. Linearity: Linear Relationship Between Y and Each X 
++ 2. Homoscedasticity (Equal Variance)
   >Homoscedasticity refers to a key assumption in regression analysis and other statistical models. It means that the variance of the residuals (errors) is constant across all levels of the independent variable(s). In simpler terms, the spread of the errors is uniform, regardless of the value of the predictors.
 
   [View Homoscedasticity Diagram Here, Click to View](https://ibb.co/X5kJLZK)
   >  __Why is Homoscedasticity Important?__
   > + Assumption in Regression: Many statistical tests, including linear regression, assume homoscedasticity. Violating this assumption can lead to biased estimates of coefficients and unreliable hypothesis tests.
   > + Fair Predictions: Consistent error variance ensures that the model's predictions are equally reliable across all values of the independent variables.
-
-​+ Multivariate normality (Normality of Error Distribution)
- > Multivariate normality is an extension of the concept of univariate normality to multiple variables. It describes a situation where a set of variables follows a multivariate normal distribution. This concept is critical in multivariate statistics, as many analyses (e.g., multivariate regression, MANOVA, and factor analysis) assume multivariate normality.
+  
++ 3. Multivariate normality (Normality of Error Distribution)
+   > Multivariate normality is an extension of the concept of univariate normality to multiple variables. It describes a situation where a set of variables follows a multivariate normal distribution. This concept is critical in multivariate statistics, as many analyses (e.g., multivariate regression, MANOVA, and factor analysis) assume multivariate normality.
 
 [See All Assumptions Here, Click to View](https://ibb.co/jHk30Ny)
+
++ 4. Independence
+  > Independence in statistics refers to a situation where two or more variables or events are not influenced by each other. If variables are independent, the occurrence or value of one variable does not affect the occurrence or value of another.
+  > 
+  > __Correlation vs. Independence:__ (of Observation, includes 'no autocorrelation'
+  > While correlation measures the strength and direction of a linear relationship between two variables, independence implies no relationship of any kind. A correlation of 0 does not guarantee independence; the variables could be non-linearly related.
   
