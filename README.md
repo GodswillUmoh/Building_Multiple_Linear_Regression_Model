@@ -81,6 +81,8 @@ Multicollinearity occurs when two or more independent variables in a regression 
   >
 
 + 6. The Outlier Check (This an addition, not an assumption):
+     [See Sample of Outliers in graph, click Here to view](https://ibb.co/8Ns0LpB)
+     
   > An outlier check involves identifying and assessing data points that deviate significantly from the other observations in a dataset. Outliers can have a disproportionate impact on statistical models, influencing the results and potentially leading to inaccurate conclusions.
   > Why Check for Outliers? Distort Statistical Analysis: Outliers can skew means, variances, and other statistical measures.
   > __Methods to Identify Outliers:__
