@@ -39,7 +39,13 @@ The Anscombe's quartet that is dataset in four pattern showing the different way
 > + Dataset 2: A clear non-linear relationship; a curve would better fit the data.
 > + Dataset 3: An outlier skews the regression, although most points form a horizontal line.
 > + Dataset 4: A vertical line, where all points except one have the same x-value, making the regression line misleading.
-> 
+
+## Importance of Anscombe’s Quartet
+> The quartet highlights the risks of relying solely on numerical summaries without examining the data visually. Key lessons include:
+> + Outliers matter: Outliers can strongly influence statistical summaries and regression models.
+> + Patterns matter: Similar statistics can result from data with very different distributions and relationships.
+> + Visualization is crucial: Always visualize your data to understand its true nature.
+> In modern contexts, it also inspires similar examples like the Datasaurus Dozen, which shows datasets with identical statistics but wildly different shapes when visualized.
 ​
 ​
   
