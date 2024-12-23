@@ -72,9 +72,18 @@ _In modern contexts, it also inspires similar examples like the Datasaurus Dozen
   > While correlation measures the strength and direction of a linear relationship between two variables, independence implies no relationship of any kind. A correlation of 0 does not guarantee independence; the variables could be non-linearly related.
   > Typical Example for independence is the stock market
 
-+ 5. Lack of multicollinearity (Predictors (independent variable) are not Correlated with each other; usually we will require the IV not to correlate with each other. If they are not correlated, then we can build a linear regression)
-     
++ 5. Lack of multicollinearity (Predictors (independent variable) are not Correlated with each other; usually we will require the IV not to correlate with each other. If they are not correlated, then we can build a linear regression. If we go ahead to build, then the coefficient estimate will become unreliable). 
+
   > Lack of multicollinearity refers to a desirable condition in regression analysis where the independent variables (predictors) are not highly correlated with each other. When multicollinearity is minimal or absent, each independent variable contributes unique information to the model, enabling more reliable estimation of regression coefficients.
   > 
   > __What is Multicollinearity?__ 
 Multicollinearity occurs when two or more independent variables in a regression model are highly correlated, meaning they share a significant amount of the same information. This can make it difficult to determine the individual effect of each variable on the dependent variable.
+  >
+
++ 6. The Outlier Check:
+  > An outlier check involves identifying and assessing data points that deviate significantly from the other observations in a dataset. Outliers can have a disproportionate impact on statistical models, influencing the results and potentially leading to inaccurate conclusions.
+  > Why Check for Outliers? Distort Statistical Analysis: Outliers can skew means, variances, and other statistical measures.
+  > __Methods to Identify Outliers:__
+  > _Visual Inspection:_
+  > + Box Plot: Displays the interquartile range (IQR), and points outside 1.5 × IQR are flagged as potential outliers (Identifying Outliers: Outliers are data points that fall outside the whisker boundaries. Any data point below the lower bound or above the upper bound is considered an outlier).
+  > + Scatter Plot: Useful for bivariate data to spot outliers relative to other observations.
