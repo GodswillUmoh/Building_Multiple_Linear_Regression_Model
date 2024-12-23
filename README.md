@@ -39,6 +39,8 @@ The Anscombe's quartet that is dataset in four pattern showing the different way
 > + Dataset 2: A clear non-linear relationship; a curve would better fit the data.
 > + Dataset 3: An outlier skews the regression, although most points form a horizontal line.
 > + Dataset 4: A vertical line, where all points except one have the same x-value, making the regression line misleading.
+>
+> Hence, Linear Regression is only fit in the Dataset 1 Scenario
 
 ## Importance of Anscombe’s Quartet
 > The quartet highlights the risks of relying solely on numerical summaries without examining the data visually. Key lessons include:
@@ -48,5 +50,14 @@ The Anscombe's quartet that is dataset in four pattern showing the different way
 
 _In modern contexts, it also inspires similar examples like the Datasaurus Dozen, which shows datasets with identical statistics but wildly different shapes when visualized._
 ​
+## Therefore, The Assumptions for Linear Regression
++ Linearity: Linear Relationship Between Y and Each X 
++ Homoscedasticity (Equal Variance)
+  >Homoscedasticity refers to a key assumption in regression analysis and other statistical models. It means that the variance of the residuals (errors) is constant across all levels of the independent variable(s). In simpler terms, the spread of the errors is uniform, regardless of the value of the predictors.
+
+  [View Homoscedasticity Diagram Here, Click to View](https://ibb.co/X5kJLZK)
+  >  __Why is Homoscedasticity Important?__
+  > + Assumption in Regression: Many statistical tests, including linear regression, assume homoscedasticity. Violating this assumption can lead to biased estimates of coefficients and unreliable hypothesis tests.
+  > + Fair Predictions: Consistent error variance ensures that the model's predictions are equally reliable across all values of the independent variables.
 ​
   
