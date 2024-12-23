@@ -87,3 +87,12 @@ Multicollinearity occurs when two or more independent variables in a regression 
   > _Visual Inspection:_
   > + Box Plot: Displays the interquartile range (IQR), and points outside 1.5 × IQR are flagged as potential outliers (Identifying Outliers: Outliers are data points that fall outside the whisker boundaries. Any data point below the lower bound or above the upper bound is considered an outlier).
   > + Scatter Plot: Useful for bivariate data to spot outliers relative to other observations.
+  >   
+  >   __Three Main Analysis Carryout On Variable are:__
+  >   + __Univariate Analysis__: Definition: Involves analyzing a single variable to understand its distribution, central tendency, and spread. Objective: Summarize and describe the data. Dataset: e.g Heights of students (5.1,5.7,6.0,5.5).
+  >     
+  >   +  __Bivariate Analysis__: Definition: Examines the relationship between two variables, often involving dependent and independent variables. Objective: Determine the association, correlation, or dependency between two variables. e.g Dataset: Relationship between hours studied (independent) and exam scores (dependent).
+  >     
+  >   +  __Multivariate Analysis__: Definition: Involves the analysis of three or more variables simultaneously to explore complex relationships. Objective: Understand the interactions and dependencies among multiple variables. Techniques: Multiple Regression: Model the relationship between one dependent and several independent variables.
+  >     e.g Dataset: Analyze factors influencing house prices (e.g., size, location, and age of the house).
+
