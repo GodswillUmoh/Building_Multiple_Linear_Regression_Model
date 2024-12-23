@@ -59,5 +59,8 @@ _In modern contexts, it also inspires similar examples like the Datasaurus Dozen
   >  __Why is Homoscedasticity Important?__
   > + Assumption in Regression: Many statistical tests, including linear regression, assume homoscedasticity. Violating this assumption can lead to biased estimates of coefficients and unreliable hypothesis tests.
   > + Fair Predictions: Consistent error variance ensures that the model's predictions are equally reliable across all values of the independent variables.
-​
+
+​+ Multivariate normality (Normality of Error Distribution)
+ > Multivariate normality is an extension of the concept of univariate normality to multiple variables. It describes a situation where a set of variables follows a multivariate normal distribution. This concept is critical in multivariate statistics, as many analyses (e.g., multivariate regression, MANOVA, and factor analysis) assume multivariate normality.
+[See All Assumptions Here, Click to View](https://ibb.co/jHk30Ny)
   
