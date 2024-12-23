@@ -45,7 +45,8 @@ The Anscombe's quartet that is dataset in four pattern showing the different way
 > + Outliers matter: Outliers can strongly influence statistical summaries and regression models.
 > + Patterns matter: Similar statistics can result from data with very different distributions and relationships.
 > + Visualization is crucial: Always visualize your data to understand its true nature.
-> In modern contexts, it also inspires similar examples like the Datasaurus Dozen, which shows datasets with identical statistics but wildly different shapes when visualized.
+
+_In modern contexts, it also inspires similar examples like the Datasaurus Dozen, which shows datasets with identical statistics but wildly different shapes when visualized._
 ​
 ​
   
