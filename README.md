@@ -32,7 +32,7 @@ Where:
 The Anscombe's quartet that is dataset in four pattern showing the different ways variables relate. Linear regression is not applied in the ones that the graph do not show linearity.
 > __Anscombe's quartet__ is a collection of four datasets, each consisting of 11 data points, designed to demonstrate the importance of visualizing data before analyzing it statistically. These datasets have nearly identical simple descriptive statistics (e.g., mean, variance, correlation, and regression line), but when visualized, they reveal very different patterns and relationships.
 
-## [See Image of Anscombe Quartet Here:](https://ibb.co/jMTZYcY)
+  ## [See Image of Anscombe Quartet Here:](https://ibb.co/jMTZYcY)
 
 > __Key Statistics of Anscombe’s Quartet:__  For all four datasets, when graphed:
 > + Dataset 1: A linear relationship fits well; the data aligns closely with the regression line.
@@ -62,12 +62,19 @@ _In modern contexts, it also inspires similar examples like the Datasaurus Dozen
   
 + 3. Multivariate normality (Normality of Error Distribution)
    > Multivariate normality is an extension of the concept of univariate normality to multiple variables. It describes a situation where a set of variables follows a multivariate normal distribution. This concept is critical in multivariate statistics, as many analyses (e.g., multivariate regression, MANOVA, and factor analysis) assume multivariate normality.
-
-[See All Assumptions Here, Click to View](https://ibb.co/jHk30Ny)
+   
+   [See All Assumptions Here, Click to View](https://ibb.co/jHk30Ny)
 
 + 4. Independence
   > Independence in statistics refers to a situation where two or more variables or events are not influenced by each other. If variables are independent, the occurrence or value of one variable does not affect the occurrence or value of another.
   > 
   > __Correlation vs. Independence:__ (of Observation, includes 'no autocorrelation'
   > While correlation measures the strength and direction of a linear relationship between two variables, independence implies no relationship of any kind. A correlation of 0 does not guarantee independence; the variables could be non-linearly related.
-  
+  > Typical Example for independence is the stock market
+
++ 5. Lack of multicollinearity (Predictors (independent variable) are not Correlated with each other; usually we will require the IV not to correlate with each other. If they are not correlated, then we can build a linear regression)
+     
+  > Lack of multicollinearity refers to a desirable condition in regression analysis where the independent variables (predictors) are not highly correlated with each other. When multicollinearity is minimal or absent, each independent variable contributes unique information to the model, enabling more reliable estimation of regression coefficients.
+  > 
+  > __What is Multicollinearity?__ 
+Multicollinearity occurs when two or more independent variables in a regression model are highly correlated, meaning they share a significant amount of the same information. This can make it difficult to determine the individual effect of each variable on the dependent variable.
