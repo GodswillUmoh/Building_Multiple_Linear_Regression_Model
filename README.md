@@ -102,6 +102,8 @@ Multicollinearity occurs when two or more independent variables in a regression 
 ## Python Code for Multiple Linear Regression
 + [Click Here to view code for MLR](https://colab.research.google.com/drive/1r2h0lr7V37XiVTXk7GAs05-8OHr8G6tW)
 
+##  Anscombe’s Quartet
++ [To see image, click to view](https://ibb.co/7J22C1KX)
 
 
 
