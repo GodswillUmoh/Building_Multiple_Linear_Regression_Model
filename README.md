@@ -99,3 +99,10 @@ Multicollinearity occurs when two or more independent variables in a regression 
   >   +  __Multivariate Analysis__: Definition: Involves the analysis of three or more variables simultaneously to explore complex relationships. Objective: Understand the interactions and dependencies among multiple variables. Techniques: Multiple Regression: Model the relationship between one dependent and several independent variables.
   >     e.g Dataset: Analyze factors influencing house prices (e.g., size, location, and age of the house).
 
+## Python Code for Multiple Linear Regression
++ [Click Here to view code for MLR](https://colab.research.google.com/drive/1r2h0lr7V37XiVTXk7GAs05-8OHr8G6tW)
+
+
+
+
+
